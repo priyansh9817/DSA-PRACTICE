@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n;
+    int m;
     cout <<"Enter the value of n: ";
-    cin>>n;
-    for(int i=1;i<=n;i++){
+    cin>>m;
+    for(int i=1;i<=m;i++){
         for(int j=1;j<=i;j++){
-            if(n<=5){
+            if(m<=5){
                 cout<<" * ";
             }
-            else if (n>=5)
+            else if (m>=5)
             {
-                for(int j=1;j<=n-i+1;j++){
+                for(int j=1;j<=m-i+1;j++){
                     cout<<" * ";
                 }
             }
